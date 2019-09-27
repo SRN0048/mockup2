@@ -1,6 +1,7 @@
 <template>
 <div>
     <popup/>
+    <showImgComponent/>
     <!-- <displayImageComponent/>
     <solutionsComponent/>
     <showcase01Component/> -->
@@ -22,6 +23,7 @@ import productSliderComponent from '@/components/productSliderComponent'
 //import customersComponent from '@/components/customersComponent'
 import ServicesComponent from '@/components/ServicesComponent'
 import ContactComponent from '@/components/ContactComponent'
+import showImgComponent from '@/components/showImgComponent'
 
 
 
@@ -35,7 +37,8 @@ export default {
     productSliderComponent,
     //customersComponent
      ServicesComponent,
-     ContactComponent
+     ContactComponent,
+     showImgComponent
   },
   data () {
     return {
