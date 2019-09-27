@@ -58,7 +58,7 @@
               <v-spacer></v-spacer>
             </v-layout>
           </v-carousel-item>
-        </v-carousel>
+        </v-carousel>        
         </v-content>
       </v-container> 
   </section>

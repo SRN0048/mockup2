@@ -5,6 +5,7 @@
     <solutionsComponent/>
     <showcase01Component/> -->
     <productSliderComponent/>
+    <ServicesComponent/>
     <!-- <customersComponent/>         -->
 
 </div>
@@ -13,11 +14,12 @@
 <script>
 //@ = get to root dir of src folder
 import popup from '@/components/popup'
-import displayImageComponent from '@/components/displayImageComponent'
-import solutionsComponent from '@/components/solutionsComponent'
-import showcase01Component from '@/components/showcase01Component'
+//import displayImageComponent from '@/components/displayImageComponent'
+//import solutionsComponent from '@/components/solutionsComponent'
+//import showcase01Component from '@/components/showcase01Component'
 import productSliderComponent from '@/components/productSliderComponent'
-import customersComponent from '@/components/customersComponent'
+//import customersComponent from '@/components/customersComponent'
+import ServicesComponent from '@/components/ServicesComponent'
 
 
 
@@ -25,11 +27,12 @@ export default {
   name: 'Home',
   components: {
     popup,
-    displayImageComponent,
-    solutionsComponent,
-    showcase01Component,
+    //displayImageComponent,
+    //solutionsComponent,
+    //showcase01Component,
     productSliderComponent,
-    customersComponent
+    //customersComponent
+     ServicesComponent
   },
   data () {
     return {

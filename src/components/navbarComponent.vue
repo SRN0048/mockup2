@@ -10,9 +10,9 @@
     >
       <v-toolbar-title>
         <!-- logo  color="	#323376" -->
-      <router-link to="/">
+      <a href="https://www.cdg.co.th/website/solutions/specific-solutions/education-administration-enhancement-solutions/">
         <img  class="companylogo" id="logo" :src="companyIcon" alt="cdg_newlogo_2018" align-center>
-      </router-link>
+      </a>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
