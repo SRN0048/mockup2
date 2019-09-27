@@ -99,7 +99,7 @@
         "title" : "ลูกค้าของเรา"
     },
     "footerComponent" :{
-      "report" : "แจ้งปัญหา",
-      "detaisErrors": "กรุณาระบุอาการเสีย/ปัญหา"
+      "opscanSeries" : "เครื่องตรวจข้อสอบ OMR รุ่น OpScan",
+      "insightSeries": "เครื่องตรวจข้อสอบ OMR รุ่น iNSIGHT"
     }    
   }

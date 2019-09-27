@@ -35,60 +35,16 @@
       height="100%"
       tile   
     >
-      <v-card-title><strong class="subheading custom-subheading">SUPPORT</strong></v-card-title>
+      <v-card-title><strong class="subheading custom-subheading">OMR Scanners</strong></v-card-title>
       
   <v-layout row justify-center>
-    <v-dialog v-model="dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
-      <template v-slot:activator="{ on }">
+      <template>
         <v-card-text class="custom-card-text" >
-        <a v-on="on">{{$t('footerComponent.report')}}</a>
-        </v-card-text>
+        <a href="https://www.scantron.com/scanners-forms/optical-mark-recognition-omr-scanners-opscan-series/">{{$t('footerComponent.opscanSeries')}}</a>
+        <br>
+        <a href="https://www.scantron.com/scanners-forms/omr-image-scanners-insight-series/">{{$t('footerComponent.insightSeries')}}</a>
+        </v-card-text>      
       </template>
-      <v-card>
-        <v-toolbar dark color="primary">
-          <v-btn icon dark @click="dialog = false">
-            <v-icon>close</v-icon>
-          </v-btn>
-          <v-toolbar-title>{{$t('footerComponent.report')}}</v-toolbar-title>
-          <v-spacer></v-spacer>
-          <v-toolbar-items>
-            <v-btn dark flat @click="dialog = false">{{$t('save')}}</v-btn>
-          </v-toolbar-items>
-        </v-toolbar>
-        <v-divider></v-divider>
-<form>
-    <v-text-field
-      v-model="name"
-      :error-messages="nameErrors"
-      :counter="10"
-      label="Name"
-      required
-      @input="$v.name.$touch()"
-      @blur="$v.name.$touch()"
-    ></v-text-field>
-    <v-text-field
-      v-model="email"
-      :error-messages="emailErrors"
-      label="E-mail"
-      required
-      @input="$v.email.$touch()"
-      @blur="$v.email.$touch()"
-    ></v-text-field>
-    <v-text-field
-      v-model="details"
-      :error-messages="detailsErrors"
-      :counter="300"
-      label="Details"
-      required
-      @input="$v.details.$touch()"
-      @blur="$v.details.$touch()"
-    ></v-text-field>
-
-    <v-btn @click="submit">submit</v-btn>
-    <v-btn @click="clear">clear</v-btn>
-  </form>
-      </v-card>
-    </v-dialog>
   </v-layout>        
     </v-card>  
   </v-flex>
@@ -104,7 +60,7 @@
         <a href="https://www.cdg.co.th/website/web/viewer.html?file=/website/wp-content/uploads/2019/04/CDG-Code-of-Conduct_24042019.pdf" target="_blank">
           หลักจรรยาบรรรณ (CODE OF CONDUCT)
         </a>
-        <router-link to="/Contact">
+        <!-- <router-link to="/Contact">
           <span>
             CONTACT US
           </span>                
@@ -114,7 +70,7 @@
           <span>
             CAREERS
           </span>                
-        </router-link> 
+        </router-link>  -->
         <br>
         <a href="https://www.cdg.co.th/website/" target="_blank">CDG GROUP</a>      
       </v-card-text>  

@@ -1,11 +1,11 @@
 <template>
 <div>
     <popup/>
-    <displayImageComponent/>
+    <!-- <displayImageComponent/>
     <solutionsComponent/>
-    <showcase01Component/>
+    <showcase01Component/> -->
     <productSliderComponent/>
-    <customersComponent/>        
+    <!-- <customersComponent/>         -->
 
 </div>
 </template>

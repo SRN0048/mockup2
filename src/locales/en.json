@@ -98,7 +98,7 @@
     "title" : "OUR CUSTOMERS"
   },
   "footerComponent" :{
-    "report" : "Report a Problem",
-    "detaisErrors": "Details are required"
+    "opscanSeries" : "OMR Scanners - OpScan Series",
+    "insightSeries": "OMR & Image Scanners - iNSIGHT Series"
   }
 }

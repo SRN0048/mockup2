@@ -4,7 +4,7 @@
     <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
            <!-- <img :src="image" >  -->
-           <GoogleMap/>
+           <!-- <GoogleMap/> -->
       </v-layout>
     </v-flex>
 
@@ -41,11 +41,11 @@
 </template>
 
 <script>
-import GoogleMap from '../GoogleMap'
+//import GoogleMap from '../GoogleMap'
 export default {
   name: 'Contact',
   components : {
-    GoogleMap
+    //GoogleMap
   },
   data() {
     return {

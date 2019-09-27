@@ -2,21 +2,21 @@
 
   <section fluid class="gradient-bg">
       <v-container class="no-bottom-padding">
-        <v-carousel :cycle="false" style="box-shadow: 0px 0px; height: 550px">
-          <v-carousel-item :key="i" v-for="i in 3">
+        <v-content>
+        <v-carousel :cycle="false" style="box-shadow: 0px 0px; height: 370px">
+          <v-carousel-item :key="i" v-for="i in 2">
             <v-layout row>
               <v-flex xs12 sm4 md4 :key="j" v-for="j in 3" pl-2 pr-2>
                 <v-card 
                   color="white"
-                  height="550" 
                   tile >
                   <div v-if="i==1" class="custom-img-container">
                     <img class="card-img" :src="group1[j-1].src" alt="news">
                   </div>
-                  <div v-if="i==2" class="custom-img-container">
+                  <!-- <div v-if="i==2" class="custom-img-container">
                     <img class="card-img" :src="group2[j-1].src" alt="news">
-                  </div>                               
-                  <div v-if="i==3" class="custom-img-container">
+                  </div>                                -->
+                  <div v-else class="custom-img-container">
                     <img class="card-img" :src="group3[j-1].src" alt="news">
                   </div> 
 
@@ -24,15 +24,15 @@
                     <v-card-title v-if="i==1" class="custom-title">
                         {{ group1[j-1].title }}
                     </v-card-title> 
-                    <v-card-title v-else-if="i==2" class="custom-title">
+                    <!-- <v-card-title v-else-if="i==2" class="custom-title">
                         {{ group2[j-1].title }}
-                    </v-card-title> 
-                    <v-card-title v-else-if="i==3" class="custom-title">
+                    </v-card-title>  -->
+                    <v-card-title v-else class="custom-title">
                         {{ group3[j-1].title }}
                     </v-card-title>                                                        
                   </div>          
 
-                  <div class="custom-textbox">
+                  <!-- <div class="custom-textbox">
                     <v-card-text v-if="i==1" class="card__txt">
                         {{$t(group1[j-1].desc)}}
                     </v-card-text>
@@ -42,15 +42,15 @@
                     <v-card-text v-if="i==3" class="card__txt">
                         {{$t(group3[j-1].desc)}}
                     </v-card-text>                                                       
-                  </div>                                            
+                  </div>                                             -->
 
                     <v-flex v-if="i==1" align-end class="text-xs-left custom-btn-padding">
                       <v-btn :href="group1[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
                     </v-flex>
-                   <v-flex v-if="i==2"  align-end class="text-xs-left custom-btn-padding">
+                   <!-- <v-flex v-if="i==2"  align-end class="text-xs-left custom-btn-padding">
                       <v-btn :href="group2[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
-                    </v-flex>   
-                    <v-flex v-if="i==3" align-end class="text-xs-left custom-btn-padding">
+                    </v-flex>    -->
+                    <v-flex v-else align-end class="text-xs-left custom-btn-padding">
                       <v-btn :href="group3[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
                     </v-flex>                                                                        
                 </v-card>                
@@ -59,6 +59,7 @@
             </v-layout>
           </v-carousel-item>
         </v-carousel>
+        </v-content>
       </v-container> 
   </section>
 
@@ -78,11 +79,11 @@ export default  {
           {title: 'OpScan® 6 Scanner', desc: 'slider.product2', src: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6.jpg', page: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6-Datasheet.pdf'},
           {title: 'OpScan® 8 Scanner', desc: 'slider.product3', src: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6.jpg', page: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-8-Datasheet.pdf'}
         ],
-        group2:[
-          {title: 'ScanTools® Plus', desc: 'slider.product4', src: 'https://www.scantron.com/wp-content/uploads/2018/09/GettyImages-908252358-660x371.jpg', page: 'https://www.scantron.com/scanners-forms/scantools-plus/'},
-          {title: 'ScanTools® Prisma', desc: 'slider.product5', src: 'https://www.scantron.com/wp-content/uploads/2018/09/GettyImages-908252358-660x371.jpg', page: 'https://www.scantron.com/scanners-forms/scantools-prisma/'},
-          {title: 'ItemAnalysis & StudentScore', desc: 'slider.product6', src: require('../assets/sample-660x371.jpg'), page: 'https://www.google.co.th/?gws_rd=ssl'}
-        ],
+        // group2:[
+        //   {title: 'ScanTools® Plus', desc: 'slider.product4', src: 'https://www.scantron.com/wp-content/uploads/2018/09/GettyImages-908252358-660x371.jpg', page: 'https://www.scantron.com/scanners-forms/scantools-plus/'},
+        //   {title: 'ScanTools® Prisma', desc: 'slider.product5', src: 'https://www.scantron.com/wp-content/uploads/2018/09/GettyImages-908252358-660x371.jpg', page: 'https://www.scantron.com/scanners-forms/scantools-prisma/'},
+        //   {title: 'ItemAnalysis & StudentScore', desc: 'slider.product6', src: require('../assets/sample-660x371.jpg'), page: 'https://www.google.co.th/?gws_rd=ssl'}
+        // ],
         group3:[
           {title: 'iNSIGHT™ 4ES Scanner', desc: 'slider.product7', src: require('../assets/opscan4es_clip-590x342.jpg'), page: 'https://www.scantron.com/scanners-forms/omr-image-scanners-insight-series/insight-4es/'},
           {title: 'iNSIGHT™ 700c Scanner', desc: 'slider.product8', src: 'https://www.scantron.com/wp-content/uploads/2018/08/iNSIGHT700c-660x383.jpg', page: 'https://www.scantron.com/scanners-forms/omr-image-scanners-insight-series/insight-700c-scanner/'},
