@@ -1,7 +1,7 @@
 <template>
-  <v-layout class="bg-color1" row wrap>
+  <v-layout class="custombg" row wrap>
     <v-container>
-      
+
     <!-- <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
            <img :src="image.src" > 
@@ -9,37 +9,30 @@
     </v-flex> -->
 
       <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-3>
-          <v-layout row wrap justify-center>
+          <!-- <v-layout row wrap justify-center>
             <h1 class="border-bottom Services">{{ $t('Services.title') }}</h1>     
-          </v-layout>
-          
-      <v-layout row wrap>
-        <v-layout row wrap justify-center>
-          <v-flex xs12 sm6 md6 order-md1 order-sm1 order-xs1>
-            
-            <v-card flat height="100%">
               <v-img
                   :src="image.src"
                   aspect-ratio="2.75"
                 ></v-img>
-              <v-divider light></v-divider>
-              <v-card-title class="custom-title">
+          </v-layout> -->
+          
+      <v-layout row wrap>
+        <v-layout row wrap justify-center>
+          <v-flex xs12 sm6 md6 order-md1 order-sm1 order-xs1>
                 <v-layout justify-center>
-                  Grading Management Solutions               
+                  <h1 class="custom-font">Grading Management Solutions </h1>              
                 </v-layout>
-              </v-card-title>   
-
-            <div class="custom-textbox">
-              <v-card-text class="custom-card-text">
-                {{ $t('ServicesComponent') }}
-              </v-card-text>
-            </div>         
-            </v-card>
-            
+                <v-divider></v-divider>
+                <v-spacer></v-spacer>
+                <v-layout text-xs-center justify-center pt-4>
+                  <p class="custom-details">{{ $t('ServicesComponent') }}</p>
+                </v-layout>
+                    
           </v-flex> 
         </v-layout>
       </v-layout>
-    </v-flex>   
+    </v-flex> 
     </v-container>
   </v-layout>
 </template>
@@ -57,11 +50,26 @@ export default {
 
 
 <style lang="scss" scoped>
-  .bg-color1 {
-    background-color:#323376
-    // background-color: #21D4FD;
-    // background-image: linear-gradient(19deg, #21D4FD 0%, #323376 58%);
 
+  // .bg-color1 {
+  //   background-color:#323376
+  //   background-color: #21D4FD;
+  //   background-image: linear-gradient(19deg, #21D4FD 0%, #323376 58%);
+  // }
+
+  .custombg {
+    background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(50,51,118,0.7) 0%), url( 'https://www.cdg.co.th/website/wp-content/uploads/2016/11/solution_solution.jpg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);
+  }
+
+  .custom-font {
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+  .custom-details {
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   img {

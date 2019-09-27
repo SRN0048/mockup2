@@ -13,10 +13,10 @@
             <h1 class="border-bottom contact-title">{{ $t('Contact.title') }}</h1>     
           </v-layout>
 
-          <v-layout row wrap justify-center>
+          <v-layout text-xs-center row wrap justify-center>
             <p>บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
        ได้เปิดสำนักงานใหม่ซึ่งเป็นเป็นห้อง Show Room
-      เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR ก่อนตัดสินใจ</p>     
+      เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR</p>     
           </v-layout>
           <v-layout row wrap justify-center>
             <h1 class="border-bottom contact-title">สถานที่ติดต่อ</h1>  

@@ -110,7 +110,8 @@ export default  {
   }
 
   .no-bottom-padding {
-    padding-bottom: 0
+    padding-bottom: 0;
+    margin-bottom: 1%
   }
 
   .custom-img-container {
@@ -167,7 +168,7 @@ export default  {
   }
 
   /deep/ .v-carousel__prev, /deep/ .v-carousel__next {
-    top: 95%;
+    top: 93%;
     z-index: 2;
   }
 
