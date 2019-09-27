@@ -1,0 +1,104 @@
+{
+  "lorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s....",
+  "save": "Save",
+  "slider"  : {
+    "product1" : "The OMR-only OpScan 4ES delivers 2800 sheets per hour throughput in a convenient desktop size.",
+    "product2" : "The OpScan® 6 optical mark recognition (OMR) scanner offers fast throughput and data transfer in a durable desktop model. Its flexible design allows for distributed or centralized processing. The OpScan 6 scanner enhances productivity by collecting and transforming data intouseable information quickly and efficiently",
+    "product3" : "The OpScan® 8 scanner is a powerful, high performance optical mark recognition (OMR) scanner designed for high-speed data input. Human error and time consuming re-sorts are virtually eliminated. And, with faster, more effective form handling, turn-around time shrinks and operators are freed for more productive activities.",
+    "product4" : "Easily create custom applications to capture mission-critical data for single- or multiple-page forms with little to no programming expertise required.",
+    "product5" : "Easily create custom applications to capture color image or OMR data for single- or multiple-page forms with little to no programming expertise required.",
+    "product6" : "Exam Result Analysis Software & Exam Reporting Software",
+    "product7" : "The iNSIGHT 4ES scans OMR forms and images, delivering 2800 sheets per hour throughput in a convenient desktop size.",
+    "product8" : "The i NSIGHT™ 700c scans color OMR forms and images at 6,600 sheets per hour, in a convenient tabletop size with flexible sorting modes supported by the Select Stacker Plus and the Flex Stacker.",
+    "product9" : "The stand-alone, OMR-only OpScan® 16 scans at 10,800 sheets per hour and includes a PC controller as an integral component."
+  },
+  "navbarComponent": {
+    "Home": "Home",
+    "About": "About",
+    "Services": "Services",
+    "News": "News",
+    "Contact": "Contact Us",
+    "Careers": "Careers"
+  },
+  "About" :{
+    "CompanyName": "Control Data (Thailand) Ltd."
+  },
+  "Services" :{
+    "title": "OUR SERVICES "
+  },
+  "News" :{
+    "title": "News "
+  },
+  "Contact" :{
+    "title": "CONTACT US "
+  },
+  "Careers" :{
+    "title": "JOB OPENING ",
+    "viewAll": "VIEW ALL",
+    "closeAll": "CLOSE ALL",
+
+    "employmentType": "Employment Type",
+    "responsibilities": "Responsibilities",
+    "qualifications": "Qualifications",
+    "benefits": "Benefits",
+    "salary": "Salary",
+    "workLocation": "Work Location",  
+
+    "employmentType1": "Employment Type 1",
+    "employmentType2": "Employment Type 2",
+    "responsibilities1": "Responsibilities 1",
+    "responsibilities2": "Responsibilities 2",
+    "responsibilities3": "Responsibilities 3",
+    "responsibilities4": "Responsibilities 4",
+    "responsibilities5": "Responsibilities 5",
+    "qualifications1": "Qualifications 1",
+    "qualifications2": "Qualifications 2",
+    "qualifications3": "Qualifications 3",
+    "qualifications4": "Qualifications 4",
+    "qualifications5": "Qualifications 5",
+    "benefits1": "Benefits 1",
+    "benefits2": "Benefits 2",
+    "benefits3": "Benefits 3",
+    "benefits4": "Benefits 4",
+    "benefits5": "Benefits 5",
+    "salary1": "Salary 1",
+    "salary2": "Salary 2",
+    "salary3": "Salary 3",
+    "salary4": "Salary 4",
+    "salary5": "Salary 5",
+    "workLocation1": "Work Location 1",  
+    "workLocation2": "Work Location 2",  
+    "workLocation3": "Work Location 3",  
+    "workLocation4": "Work Location 4",  
+    "workLocation5": "Work Location 5",  
+    "pos1": "position 1",
+    "pos2": "position 2",
+    "pos3": "position 3",
+    "pos4": "position 4",
+    "pos5": "position 5"
+  },
+  "solutionsComponent": {
+      "title" : "OUR SOLUTIONS",
+      "topic1": "Solutions 1",
+      "topic2": "Solutions 2",
+      "topic3": "Solutions 3",
+      "topic4": "Solutions 4",
+      "description1": "description 1................. ..................................",
+      "description2": "description 2...........  ..........",
+      "description3": "description 3.......  .............................................",
+      "description4": "description 4........ ........ ..............."      
+  },
+  "showcaseComponent": {
+    "topic1": "Software and System",
+    "topic2": "Smart Card",
+    "description1": "description 1",
+    "description2": "description 2"
+  },
+  "customersComponent": {
+    "title" : "OUR CUSTOMERS"
+  },
+  "footerComponent" :{
+    "report" : "Report a Problem",
+    "detaisErrors": "Details are required"
+  }
+}
