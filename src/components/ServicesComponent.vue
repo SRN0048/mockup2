@@ -1,41 +1,46 @@
 <template>
   <v-layout class="bg-color1" row wrap>
+    <v-container>
+      
     <!-- <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
            <img :src="image.src" > 
       </v-layout>
     </v-flex> -->
 
-    <v-container grid-list-xs>
-        <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-5>
+      <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-3>
           <v-layout row wrap justify-center>
             <h1 class="border-bottom Services">{{ $t('Services.title') }}</h1>     
           </v-layout>
-          <v-layout row wrap>
-
+          
+      <v-layout row wrap>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm6 md6 order-md1 order-sm1 order-xs1>
             
-            <v-card flat tile height="100%">
+            <v-card flat height="100%">
+              <v-img
+                  :src="image.src"
+                  aspect-ratio="2.75"
+                ></v-img>
+              <v-divider light></v-divider>
               <v-card-title class="custom-title">
                 <v-layout justify-center>
-                  SERVICES 1                
+                  Grading Management Solutions               
                 </v-layout>
               </v-card-title>   
 
             <div class="custom-textbox">
               <v-card-text class="custom-card-text">
-                {{ $t('lorem') }}
+                {{ $t('ServicesComponent') }}
               </v-card-text>
             </div>         
             </v-card>
             
           </v-flex> 
         </v-layout>
-          </v-layout>
-        </v-flex>   
+      </v-layout>
+    </v-flex>   
     </v-container>
-
   </v-layout>
 </template>
 
@@ -53,8 +58,10 @@ export default {
 
 <style lang="scss" scoped>
   .bg-color1 {
-    //background-color:#323376
-    background-image: linear-gradient(180deg, #323376 25%, #9a9a91 100%);
+    background-color:#323376
+    // background-color: #21D4FD;
+    // background-image: linear-gradient(19deg, #21D4FD 0%, #323376 58%);
+
   }
 
   img {
@@ -86,8 +93,7 @@ export default {
 
   .custom-textbox {
     width: 100%; 
-    height: 116px; 
-    min-height: 116px;
+    height: auto; 
     overflow: hidden;
   }
 

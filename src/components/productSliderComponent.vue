@@ -9,7 +9,7 @@
               <v-flex xs12 sm4 md4 :key="j" v-for="j in 3" pl-2 pr-2>
                 <v-card 
                   color="white"
-                  tile >
+                   >
                   <div v-if="i==1" class="custom-img-container">
                     <img class="card-img" :src="group1[j-1].src" alt="news">
                   </div>

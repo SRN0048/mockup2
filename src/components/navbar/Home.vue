@@ -6,6 +6,7 @@
     <showcase01Component/> -->
     <productSliderComponent/>
     <ServicesComponent/>
+    <ContactComponent/>
     <!-- <customersComponent/>         -->
 
 </div>
@@ -20,6 +21,7 @@ import popup from '@/components/popup'
 import productSliderComponent from '@/components/productSliderComponent'
 //import customersComponent from '@/components/customersComponent'
 import ServicesComponent from '@/components/ServicesComponent'
+import ContactComponent from '@/components/ContactComponent'
 
 
 
@@ -32,7 +34,8 @@ export default {
     //showcase01Component,
     productSliderComponent,
     //customersComponent
-     ServicesComponent
+     ServicesComponent,
+     ContactComponent
   },
   data () {
     return {
