@@ -25,6 +25,22 @@
           :ripple="false"
           :to="navbarItems[0].page"
         > {{ $t('navbarComponent.Home') }}</v-btn> 
+        <v-btn
+          active-class="v-btn--active"
+          class="custom-btn"
+          flat
+          large
+          :ripple="false"
+          href="#Services"
+        > {{ $t('navbarComponent.Services') }}</v-btn>
+        <v-btn
+          active-class="v-btn--active"
+          class="custom-btn"
+          flat
+          large
+          :ripple="false"
+          href="#Contact"
+        > {{ $t('navbarComponent.Contact') }}</v-btn>
         <!-- <v-btn
           active-class="v-btn--active"
           class="custom-btn"

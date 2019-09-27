@@ -1,5 +1,5 @@
 <template link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <v-layout class="bg-color1" row wrap>
+  <v-layout class="bg-color1" id="Contact" row wrap>
     <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
            <!-- <img :src="image" >  -->
@@ -14,9 +14,9 @@
           </v-layout>
 
           <v-layout text-xs-center row wrap justify-center>
-            <p>บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
+            <p class="custom-margin1">บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
        ได้เปิดสำนักงานใหม่ซึ่งเป็นเป็นห้อง Show Room
-      เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR</p>     
+      เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR ก่อนตัดสินใจ</p>     
           </v-layout>
           <v-layout row wrap justify-center>
             <h1 class="border-bottom contact-title">สถานที่ติดต่อ</h1>  
@@ -75,6 +75,10 @@ export default {
     text-align: center;
     font-weight: 300;
     font-size: 25px
+  }
+
+  .custom-margin1 {
+    margin: 0px 28% 2% 28%
   }
 
   .border-bottom {

@@ -1,5 +1,5 @@
 <template>
-  <v-layout class="custombg" row wrap>
+  <v-layout class="custombg" id="Services" row wrap>
     <v-container>
 
     <!-- <v-flex xs21 sm12 md12 order-xs1 order-sm1>
@@ -68,7 +68,7 @@ export default {
   }
 
   .custom-details {
-    font-size: 14px;
+    font-size: 15px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
