@@ -11,62 +11,62 @@ export default new Router({
   },
   routes: [
     {
-      path: '/mockup-deploy-vuetify1514/',
+      path: '/',
       name: 'Home',
       component: ( )=> import('@/components/navbar/Home.vue')
     },
     {
-      path: '/mockup-deploy-vuetify1514/About/',
+      path: '/About',
       name: 'About',
       component: ( )=> import('@/components/navbar/About.vue')
     },
     {
-      path: '/mockup-deploy-vuetify1514/Services',
+      path: '/Services',
       name: 'Services',
       component: ( )=> import('@/components/navbar/Services.vue')   
     },
     {
-      path: '/mockup-deploy-vuetify1514/News',
+      path: '/News',
       name: 'News',
       component: ( )=> import('@/components/navbar/News.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Contact',
+      path: '/Contact',
       name: 'Contact',
       component: ( )=> import('@/components/navbar/Contact.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Careers',
+      path: '/Careers',
       name: 'Careers',
       component: ( )=> import('@/components/navbar/Careers.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Software&System',
+      path: '/Software&System',
       name: 'Software&System',
       component: ( )=> import('@/components/showcase/software&system.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/SmartCard',
+      path: '/SmartCard',
       name: 'SmartCard',
       component: ( )=> import('@/components/showcase/smartcard.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Solution1',
+      path: '/Solution1',
       name: 'Solution1',
       component: ( )=> import('@/components/solutions/solution1.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Solution2',
+      path: '/Solution2',
       name: 'Solution2',
       component: ( )=> import('@/components/solutions/solution2.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Solution3',
+      path: '/Solution3',
       name: 'Solution3',
       component: ( )=> import('@/components/solutions/solution3.vue') 
     },
     {
-      path: '/mockup-deploy-vuetify1514/Solution4',
+      path: '/Solution4',
       name: 'Solution4',
       component: ( )=> import('@/components/solutions/solution4.vue') 
     },

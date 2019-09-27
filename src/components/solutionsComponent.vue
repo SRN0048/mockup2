@@ -44,10 +44,10 @@ export default  {
     data() {
       return {
         details: [
-          { name:'aspect_ratio', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic1', text: 'solutionsComponent.description1' , page: '/mockup-deploy-vuetify1514/Solution1'},
-          { name:'archive', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic2', text: 'solutionsComponent.description2' , page: '/mockup-deploy-vuetify1514/Solution2'},
-          { name:'access_time', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic3', text: 'solutionsComponent.description3' , page: '/mockup-deploy-vuetify1514/Solution3'},
-          { name:'computer', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic4', text: 'solutionsComponent.description4' , page: '/mockup-deploy-vuetify1514/Solution4'}
+          { name:'aspect_ratio', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic1', text: 'solutionsComponent.description1' , page: '/Solution1'},
+          { name:'archive', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic2', text: 'solutionsComponent.description2' , page: '/Solution2'},
+          { name:'access_time', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic3', text: 'solutionsComponent.description3' , page: '/Solution3'},
+          { name:'computer', src: require('../assets/icon_aspect_ratio.png'), topic: 'solutionsComponent.topic4', text: 'solutionsComponent.description4' , page: '/Solution4'}
         ]
       }
     },

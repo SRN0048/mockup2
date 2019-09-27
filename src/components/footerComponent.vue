@@ -104,13 +104,13 @@
         <a href="https://www.cdg.co.th/website/web/viewer.html?file=/website/wp-content/uploads/2019/04/CDG-Code-of-Conduct_24042019.pdf" target="_blank">
           หลักจรรยาบรรรณ (CODE OF CONDUCT)
         </a>
-        <router-link to="/mockup-deploy-vuetify1514/Contact">
+        <router-link to="/Contact">
           <span>
             CONTACT US
           </span>                
         </router-link>  
         <br>
-        <router-link to="/mockup-deploy-vuetify1514/Careers">
+        <router-link to="/Careers">
           <span>
             CAREERS
           </span>                

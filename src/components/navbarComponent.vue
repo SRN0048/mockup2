@@ -10,7 +10,7 @@
     >
       <v-toolbar-title>
         <!-- logo  color="	#323376" -->
-      <router-link to="/mockup-deploy-vuetify1514/">
+      <router-link to="/">
         <img  class="companylogo" id="logo" :src="companyIcon" alt="cdg_newlogo_2018" align-center>
       </router-link>
       </v-toolbar-title>
@@ -203,12 +203,12 @@ export default {
     return {
       companyIcon: require('@/assets/cdg_newlogo_2018.png'),
       navbarItems :[
-        {id: 0, title: "Home", page:'/mockup-deploy-vuetify1514/'},
-        {id: 1, title: "About", page:'/mockup-deploy-vuetify1514/About'},
-        {id: 2, title: "Services", page:'/mockup-deploy-vuetify1514/Services'},
-        {id: 3, title: "News", page:'/mockup-deploy-vuetify1514/News'},
-        {id: 4, title: "Contact Us", page:'/mockup-deploy-vuetify1514/Contact'},
-        {id: 5, title: "Careers", page:'/mockup-deploy-vuetify1514/Careers'}
+        {id: 0, title: "Home", page:'/'},
+        {id: 1, title: "About", page:'/About'},
+        {id: 2, title: "Services", page:'/Services'},
+        {id: 3, title: "News", page:'/News'},
+        {id: 4, title: "Contact Us", page:'/Contact'},
+        {id: 5, title: "Careers", page:'/Careers'}
       ],
       drawer: false,
       menuLanguageA: false,

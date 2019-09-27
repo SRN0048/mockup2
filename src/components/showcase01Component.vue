@@ -79,10 +79,10 @@ export default  {
           {src: require('../assets/779 X 382 px.png') }
         ],
         details1: [
-          { topic: 'showcaseComponent.topic1', text: 'showcaseComponent.description1', page: '/mockup-deploy-vuetify1514/Software&System' }
+          { topic: 'showcaseComponent.topic1', text: 'showcaseComponent.description1', page: '/Software&System' }
         ],
         details2: [
-          { topic: 'showcaseComponent.topic2', text: 'showcaseComponent.description2', page: '/mockup-deploy-vuetify1514/SmartCard'}
+          { topic: 'showcaseComponent.topic2', text: 'showcaseComponent.description2', page: '/SmartCard'}
         ]
       }
     }
