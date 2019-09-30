@@ -41,7 +41,7 @@ export default {
   name: 'ServicesComponent', //this is the name of the component
   data() {
     return {
-      image: {src: 'https://www.cdg.co.th/website/wp-content/uploads/2016/11/solution_solution.jpg'}
+      img: require('../assets/parallax_test.jpg'),
     }
   }
 }
