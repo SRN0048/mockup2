@@ -228,7 +228,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 #shrinkNav {
   transition: all 0.5s;
   padding: 10px 10px;

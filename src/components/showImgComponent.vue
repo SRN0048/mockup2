@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-gradient">
+    <section class="gradient-bg">
         <v-container class="no-bottom-padding">
              <v-content>
                 <v-layout justify-center row wrap>
@@ -62,7 +62,7 @@ export default  {
     padding-bottom: 0;
   }
 
-  .bg-gradient {
+  .gradient-bg {
       background: linear-gradient(172deg, rgb(101, 96, 96) 0%, rgb(55, 53, 53) 100%);
   }
 

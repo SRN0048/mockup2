@@ -107,6 +107,8 @@ export default  {
 
   .gradient-bg {
     background:#323376
+    // background-color: #323376;
+    // background-image: linear-gradient(0deg, #323376 0%, #289fb9 100%);
   }
 
   .no-bottom-padding {
