@@ -1,7 +1,6 @@
 <template>
   <v-layout class="custombg" id="Services" row wrap>
     <v-container>
-
     <!-- <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
            <img :src="image.src" > 
@@ -90,7 +89,7 @@ export default {
     color: white;
     text-align: center;
     font-weight: 300;
-    font-size: 25px
+    font-size: 25px;
   }
 
   .custom-title {

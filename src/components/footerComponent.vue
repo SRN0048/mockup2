@@ -89,7 +89,7 @@
              <span class="custom-space">ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
              <span class="custom-space2">เขตยานาวา กรุงเทพฯ</span><br>
            <i class="material-icons">phone</i>  โทรศัพท์: 02-2852328<br>
-           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340
+           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
           </p>             
           </v-layout>
 

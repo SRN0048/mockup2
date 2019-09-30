@@ -22,12 +22,13 @@
             <h1 class="border-bottom contact-title">สถานที่ติดต่อ</h1>  
           </v-layout>
 
-          <v-layout row wrap justify-center>
+          <v-layout text-xs-center row wrap justify-center>
             <p><i class="material-icons">location_on</i>  อาคาร LPN Tower ชั้น 1<br>
-             <span class="custom-space">  ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
-             <span class="custom-space">  เขตยานาวา กรุงเทพฯ</span><br>
+             <span>  ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
+             <span>  เขตยานาวา กรุงเทพฯ</span><br>
            <i class="material-icons">phone</i>  โทรศัพท์: 02-2852328<br>
-           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340
+           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
+           <i class="material-icons">access_time</i>  เวลาทำการ: จันทร์-ศุกร์ 8:00น.-17:00น.
           </p>             
           </v-layout>
         </v-flex>   

@@ -2,7 +2,6 @@
 
   <section fluid class="gradient-bg">
       <v-container class="no-bottom-padding">
-        <v-content>
         <v-carousel :cycle="false" style="box-shadow: 0px 0px; height: 370px">
           <v-carousel-item :key="i" v-for="i in 2">
             <v-layout row>
@@ -59,7 +58,6 @@
             </v-layout>
           </v-carousel-item>
         </v-carousel>        
-        </v-content>
       </v-container> 
   </section>
 
