@@ -2,17 +2,13 @@
     <section class="bg-gradient">
         <v-container class="no-bottom-padding">
              <v-content>
-                <v-layout  row wrap>
-                    <v-flex xs12 sm6>
+                <v-layout justify-center row wrap>
+                    <v-flex xs12 sm6 md12 lg12>
                         <v-card 
-                        class="grey darken-2"
-                        height="auto" 
-                        width="1170">
+                        class="grey darken-2">
                             <a :href="youtube" target="_blank">
                             <v-img
                             class="white--text"
-                            height="475"
-                            width="1170"
                             :src="img"
                             >
                             </v-img>            

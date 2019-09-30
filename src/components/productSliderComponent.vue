@@ -9,6 +9,7 @@
                 <v-card 
                   color="white"
                    >
+                   <v-responsive :aspect-ratio="16/9">
                   <div v-if="i==1" class="custom-img-container">
                     <img class="card-img" :src="group1[j-1].src" alt="news">
                   </div>
@@ -51,7 +52,8 @@
                     </v-flex>    -->
                     <v-flex v-else align-end class="text-xs-left custom-btn-padding">
                       <v-btn :href="group3[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
-                    </v-flex>                                                                        
+                    </v-flex>
+                   </v-responsive>
                 </v-card>                
               </v-flex>
               <v-spacer></v-spacer>
