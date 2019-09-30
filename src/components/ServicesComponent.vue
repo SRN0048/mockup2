@@ -20,7 +20,7 @@
         <v-layout row wrap justify-center>
           <v-flex xs12 sm6 md6 order-md1 order-sm1 order-xs1>
                 <v-layout justify-center>
-                  <h1 class="custom-font">Grading Management Solutions </h1>              
+                  <h1 class="custom-font text-xs-center">Grading Management Solutions </h1>              
                 </v-layout>
                 <v-divider></v-divider>
                 <v-spacer></v-spacer>
