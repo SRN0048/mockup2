@@ -8,7 +8,7 @@
     </v-flex>
 
     <v-container grid-list-xs>
-        <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-5>
+        <!-- <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-5>
           <v-layout row wrap justify-center>
             <h1 class="border-bottom contact-title">{{ $t('Contact.title') }}</h1>     
           </v-layout>
@@ -31,7 +31,42 @@
            <i class="material-icons">access_time</i>  เวลาทำการ: จันทร์-ศุกร์ 8:00น.-17:00น.
           </p>             
           </v-layout>
-        </v-flex>   
+        </v-flex>    -->
+                 <v-layout row wrap justify-center class="my-12">
+            <v-flex xs12 sm4>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                    <v-img 
+                    class="companylogo"
+                    :src="image"
+                    ></v-img>
+                </v-card-title>
+                <v-card-text class="white--text">
+                    บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
+                  ได้เปิดสำนักงานใหม่ซึ่งเป็นเป็นห้อง Show Room
+                  เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR ก่อนตัดสินใจ
+                </v-card-text>
+              </v-card>
+            </v-flex>
+            <v-flex xs12 sm4 offset-sm1>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="border-bottom headline white--text">{{ $t('Contact.title') }}</div>
+                </v-card-title>
+                <v-card-text>
+          <v-layout text-xs-center row wrap justify-center>
+            <p><i class="material-icons">location_on</i>  อาคาร LPN Tower ชั้น 1<br>
+             <span>  ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
+             <span>  เขตยานาวา กรุงเทพฯ</span><br>
+           <i class="material-icons">phone</i>  โทรศัพท์: 02-2852328<br>
+           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
+           <i class="material-icons">access_time</i>  เวลาทำการ: จันทร์-ศุกร์ 8:00น.-17:00น.
+          </p>             
+          </v-layout>
+                </v-card-text>
+              </v-card>
+            </v-flex>
+          </v-layout>
     </v-container>
      
 
@@ -48,7 +83,7 @@ export default {
   },
   data() {
     return {
-      image: require('@/assets/950 X 350 px.png'),
+      image: require('@/assets/affiliate.png'),
       fax_icon: require('@/assets/fax.png')
     }
   }
@@ -60,6 +95,11 @@ export default {
   .bg-color1 {
     background-color:#323376
   }
+
+  .companylogo {
+  width: 30%;
+  height: auto;
+}
 
   img {
     width: 100%;
