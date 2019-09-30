@@ -1,20 +1,8 @@
 <template>
   <v-layout class="custombg" id="Services" row wrap>
     <v-container>
-    <!-- <v-flex xs21 sm12 md12 order-xs1 order-sm1>
-      <v-layout  row wrap justify-center>
-           <img :src="image.src" > 
-      </v-layout>
-    </v-flex> -->
 
       <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-3>
-          <!-- <v-layout row wrap justify-center>
-            <h1 class="border-bottom Services">{{ $t('Services.title') }}</h1>     
-              <v-img
-                  :src="image.src"
-                  aspect-ratio="2.75"
-                ></v-img>
-          </v-layout> -->
           
       <v-layout row wrap>
         <v-layout row wrap justify-center>

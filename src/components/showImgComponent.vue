@@ -5,7 +5,7 @@
                 <v-layout justify-center row wrap>
                     <v-flex xs12 sm12 md12 lg12>
                         <v-card 
-                        class="grey darken-2"              
+                        class="black darken-2"              
                         >   
                             <v-hover>
                             <a :href="youtube" target="_blank" slot-scope="{ hover }">
