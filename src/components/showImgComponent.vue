@@ -3,7 +3,7 @@
         <v-container class="no-bottom-padding">
              <v-content>
                 <v-layout justify-center row wrap>
-                    <v-flex xs12 sm6 md12 lg12>
+                    <v-flex xs12 sm12 md12 lg12>
                         <v-card 
                         class="grey darken-2"              
                         >   

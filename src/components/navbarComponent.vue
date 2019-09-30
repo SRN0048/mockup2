@@ -83,7 +83,7 @@
         > {{ $t('navbarComponent.Careers') }}</v-btn>   -->
 
         <!-- CHANGE LANGUAGE BUTTON START-->
-        <v-btn 
+        <!-- <v-btn 
           class="custom-btn"
           flat
           :ripple="false"
@@ -108,7 +108,7 @@
           </v-list-tile>
         </v-list>       
       </v-menu>
-        </v-btn> 
+        </v-btn>  -->
         
       </v-toolbar-items>
       <!-- hide toolbar side icon @ width 960px and up -->
@@ -126,40 +126,23 @@
             <v-list-tile-content> 
               {{ $t('navbarComponent.Home') }}
             </v-list-tile-content>
-        </v-list-tile>  
+        </v-list-tile>   
         <v-divider></v-divider>
-        <v-list-tile :to="navbarItems[1].page">
-            <v-list-tile-content> 
-              {{ $t('navbarComponent.About') }}
-            </v-list-tile-content>
-        </v-list-tile>  
-        <v-divider></v-divider>
-        <v-list-tile :to="navbarItems[2].page">
+        <v-list-tile href="#Services">
             <v-list-tile-content> 
               {{ $t('navbarComponent.Services') }}
         </v-list-tile-content>
         </v-list-tile>  
         <v-divider></v-divider>
-        <v-list-tile :to="navbarItems[3].page">
-            <v-list-tile-content> 
-              {{ $t('navbarComponent.News') }}
-            </v-list-tile-content>
-        </v-list-tile>  
-        <v-divider></v-divider>
-        <v-list-tile :to="navbarItems[4].page">
+        <v-list-tile href="#Contact">
             <v-list-tile-content> 
               {{ $t('navbarComponent.Contact') }}
             </v-list-tile-content>
         </v-list-tile>  
         <v-divider></v-divider>
-        <v-list-tile :to="navbarItems[5].page">
-            <v-list-tile-content> 
-              {{ $t('navbarComponent.Careers') }}
-            </v-list-tile-content>
-        </v-list-tile>
-        <v-divider></v-divider>  
+        <!-- <v-divider></v-divider>   -->
         <!-- CHANGE LANGUAGE BUTTON START-->
-        <v-list-tile>
+        <!-- <v-list-tile>
           <v-list-tile-content> 
         <v-menu v-model="menuLanguageB" offset-y>
         <v-btn class="custom-btn" :ripple="false" slot="activator" flat>
@@ -183,7 +166,7 @@
       </v-menu>
            </v-list-tile-content>  
         </v-list-tile>
-        <v-divider></v-divider>         
+        <v-divider></v-divider>          -->
       </v-list>
       </v-navigation-drawer>
 
