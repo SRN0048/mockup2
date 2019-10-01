@@ -1,8 +1,9 @@
 <template>
-    <section class="gradient-bg">
-        <v-container class="no-bottom-padding">
-             <v-content>
-                <v-layout justify-center row wrap>
+    <section>
+        <v-parallax :src="bgParallax" height="fit-content">
+            <v-container class="no-bottom-padding">
+             <v-content>               
+                <v-layout align-center justify-center row wrap>
                     <v-flex xs12 sm12 md12 lg12>
                         <v-card 
                         class="black darken-2"              
@@ -40,7 +41,7 @@
                 </v-layout>
             </v-content>           
         </v-container>
-      
+       </v-parallax>
     </section>
 </template>
 
@@ -50,6 +51,7 @@ export default  {
     data() {
       return {
         img: require('../assets/iNSIGHT 700c.png'),
+        bgParallax:require('../assets/parallax_test2.jpg'),
         youtube:'https://www.youtube.com/watch?v=DRfkzYOK0js',
         brochure: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiK19WBvffkAhVEKo8KHQSTDSYQjhx6BAgBEAI&url=https%3A%2F%2F5.imimg.com%2Fdata5%2FAF%2FGC%2FMY-3384083%2Finsight-700c-scanner.pdf&psig=AOvVaw0RQFE4dXY0wbjtDolTi0B0&ust=1569895754104034'
       }
@@ -58,6 +60,7 @@ export default  {
 </script>
 
 <style lang="scss" scoped>
+
   .no-bottom-padding {
     padding-bottom: 0;
   }

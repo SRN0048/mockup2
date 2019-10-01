@@ -12,7 +12,7 @@
                 </v-layout>
                 <v-divider></v-divider>
                 <v-spacer></v-spacer>
-                <v-layout text-xs-center justify-center pt-4>
+                <v-layout text-xs-center justify-center pt-4 pl-4 pr-4 pb-4>
                   <p class="custom-details">{{ $t('ServicesComponent') }}</p>
                 </v-layout>
                     

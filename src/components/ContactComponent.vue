@@ -86,7 +86,7 @@
                     </v-list-tile-action>
                     <span>
                       <v-list-tile-title class="white--text">ที่อยู่: ชั้น 1 เลขที่ 216/1 อาคารแอลพีเอ็น </v-list-tile-title>
-                      <v-list-tile-title class="white--text">ถนนนางลิ้นจี่ แขวงช่องนนทรี เขตยานนาวา กรุงเทพฯ 10120</v-list-tile-title>
+                      <v-list-tile-title class="white--text">ถนนนางลิ้นจี่ แขวงช่องนนทรี เขตยานนาวา</v-list-tile-title>
                       <v-list-tile-title class="white--text">กรุงเทพฯ 10120</v-list-tile-title>
                     </span>
                   </v-list-tile><br>
@@ -106,14 +106,14 @@
                       <v-list-tile-title class="white--text">โทรสาร: 02-2852340</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile><br>                  
-                  <v-list-tile>
+                  <!-- <v-list-tile>
                     <v-list-tile-action>
                       <v-icon class="white--text text--lighten-2">email</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
                       <v-list-tile-title class="white--text">email: test@cdt.com</v-list-tile-title>
                     </v-list-tile-content>
-                  </v-list-tile>
+                  </v-list-tile> -->
                 </v-list>
               </v-card>
             </v-flex>
