@@ -32,14 +32,14 @@
           </p>             
           </v-layout>
         </v-flex>    -->
-                 <v-layout row wrap justify-center class="my-12">
+          <v-layout row wrap justify-center class="my-12">
             <v-flex xs12 sm4>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-center">
-                    <v-img 
+                    <img 
                     class="companylogo"
                     :src="image"
-                    ></v-img>
+                    >
                 </v-card-title>
                 <v-card-text class="white--text">
                     บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
@@ -48,7 +48,7 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <v-flex xs12 sm4 offset-sm1>
+            <!-- <v-flex xs12 sm4 offset-sm1>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-center">
                   <div class="border-bottom headline white--text">{{ $t('Contact.title') }}</div>
@@ -64,6 +64,55 @@
           </p>             
           </v-layout>
                 </v-card-text>
+              </v-card>
+            </v-flex> -->
+                        <v-flex xs12 sm4 offset-sm1>
+              <v-card flat class="transparent">
+                <v-card-title primary-title class="layout justify-center">
+                  <div class="border-bottom headline white--text">{{ $t('Contact.title') }}</div>
+                </v-card-title>
+                <v-list class="transparent">
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="white--text text--lighten-2">home</v-icon>&nbsp;
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title class="white--text">บริษัท: คอนโทรล ดาต้า (ประเทศไทย) จำกัด</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item><br>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="white--text text--lighten-2">location_on</v-icon>&nbsp;
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title class="white--text">ที่อยู่: ชั้น 1 เลขที่ 216/1 อาคารแอลพีเอ็น ถนนนางลิ้นจี่ แขวงช่องนนทรี เขตยานนาวา กรุงเทพฯ 10120</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item><br>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="white--text text--lighten-2">phone</v-icon>&nbsp;
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title class="white--text">โทรศัพท์: 0-2285-2321</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item><br>
+                  <v-list-item>
+                    <v-list-item-action>
+                      <img :src="fax_icon" style="width:24px;height:24px" />&nbsp;
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title class="white--text">โทรสาร: 02-2852340</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item><br>                  
+                  <v-list-item>
+                    <v-list-item-action>
+                      <v-icon class="white--text text--lighten-2">email</v-icon>&nbsp;
+                    </v-list-item-action>
+                    <v-list-item-content>
+                      <v-list-item-title class="white--text">email: test@cdt.com</v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-list>
               </v-card>
             </v-flex>
           </v-layout>
@@ -98,7 +147,7 @@ export default {
 
   .companylogo {
   width: 30%;
-  height: auto;
+  height: 30%;
 }
 
   img {

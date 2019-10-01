@@ -15,9 +15,9 @@
       tile    
     >
       <v-card-title>
-        <img class="companylogo" src="@/assets/affiliate.png" alt="cdg_newlogo_2018">
-        <h1 class="custom-seperator"> | </h1>
-        <strong class="subheading">
+        <!-- <img class="companylogo" src="@/assets/affiliate.png" alt="cdg_newlogo_2018">
+        <h1 class="custom-seperator"> | </h1> -->
+        <strong class="subheading custom-subheading">
           <!-- บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด -->
           Control Data (Thailand) Ltd.
           </strong>
