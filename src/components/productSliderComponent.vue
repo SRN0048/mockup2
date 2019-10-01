@@ -134,6 +134,8 @@ export default  {
     font-weight: bold;
     font-size: large;
     margin-left: 5% 0 5% 4%;
+    min-height: 59px;
+    max-height: 113px
   }
 
   .custom-textbox {
@@ -142,6 +144,24 @@ export default  {
     min-height: 179px;
     overflow: hidden;
   }
+
+@media screen and (max-width: 860px) {
+  .custom-title {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5% 0 5% 4%;
+    min-height: 86px;
+  }
+}
+
+@media screen and (max-width: 514px) {
+  .custom-title {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5% 0 5% 4%;
+    min-height: 113px;
+  }
+}
 
   .card-img {
     max-width: 100%;
