@@ -2,12 +2,19 @@
 
   <section fluid class="gradient-bg">
       <v-container class="no-bottom-padding">
+          <v-flex>
+                <v-layout align-center justify-center pb-5>
+                  <h1 class="text-xs-center white--text">OMR Scanner Products</h1>              
+                </v-layout>
+                <v-spacer></v-spacer>                
+          </v-flex> 
         <v-carousel :cycle="false" style="box-shadow: 0px 0px; height: 370px">
           <v-carousel-item :key="i" v-for="i in 2">
             <v-layout row>
               <v-flex xs12 sm4 md4 :key="j" v-for="j in 3" pl-2 pr-2>
                 <v-card 
                   color="white"
+                  min-height="262.3"
                    >
                    <v-responsive :aspect-ratio="16/9">
                   <div v-if="i==1" class="custom-img-container">
