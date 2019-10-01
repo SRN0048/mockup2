@@ -77,7 +77,7 @@
     </v-card>  
     </v-flex>
 
-  <v-flex xs12 sm12 md3 order-md1 order-sm1 order-xs3>
+  <v-flex xs12 sm12 md3 order-md1 order-sm1 order-xs3 align-start justify-start>
     <v-card
       flat
       height="100%"
@@ -85,10 +85,13 @@
     >
       <v-card-title><strong class="subheading custom-subheading">CONTACT US</strong></v-card-title>
           <v-layout pl-3 row wrap>
-            <p><i class="material-icons">location_on</i>  อาคาร LPN Tower ชั้น 1<br>
-             <span class="custom-space">ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
-             <span class="custom-space2">เขตยานาวา กรุงเทพฯ</span><br>
-           <i class="material-icons">phone</i>  โทรศัพท์: 02-2852328<br>
+            <p><i class="material-icons">location_on</i>  ชั้น 1 เลขที่ 216/1 อาคารแอลพีเอ็น<br>
+             <span class="custom-space">ถนน นางลิ้นจี่ แขวงช่องนนทรี</span> <br>
+             <span class="custom-space2">เขตยานาวา กรุงเทพฯ 10120</span></p>
+          </v-layout>
+          <v-layout pl-3 row wrap>
+          <p>
+           <i class="material-icons" >phone</i>  โทรศัพท์: 02-2852328<br>
            <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
           </p>             
           </v-layout>
@@ -217,11 +220,15 @@ export default  {
   }
 
   .custom-space {
-    padding-left: 15%
+    padding-left: 0%
   }
 
   .custom-space2 {
-    padding-left: 8%
+    padding-left: 0%
+  }
+
+  p{
+    margin-bottom: 0px
   }
 
   .container.grid-list-md .layout .flex{

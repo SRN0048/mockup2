@@ -41,7 +41,7 @@
                     :src="image"
                     >
                 </v-card-title>
-                <v-card-text class="white--text">
+                <v-card-text class="white--text custom-font-size1">
                     บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
                   ได้เปิดสำนักงานใหม่ซึ่งเป็นเป็นห้อง Show Room
                   เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR ก่อนตัดสินใจ
@@ -72,46 +72,48 @@
                   <div class="border-bottom headline white--text">{{ $t('Contact.title') }}</div>
                 </v-card-title>
                 <v-list class="transparent">
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="white--text text--lighten-2">home</v-icon>&nbsp;
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title class="white--text">บริษัท: คอนโทรล ดาต้า (ประเทศไทย) จำกัด</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item><br>
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="white--text text--lighten-2">location_on</v-icon>&nbsp;
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title class="white--text">ที่อยู่: ชั้น 1 เลขที่ 216/1 อาคารแอลพีเอ็น ถนนนางลิ้นจี่ แขวงช่องนนทรี เขตยานนาวา กรุงเทพฯ 10120</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item><br>
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="white--text text--lighten-2">phone</v-icon>&nbsp;
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title class="white--text">โทรศัพท์: 0-2285-2321</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item><br>
-                  <v-list-item>
-                    <v-list-item-action>
-                      <img :src="fax_icon" style="width:24px;height:24px" />&nbsp;
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title class="white--text">โทรสาร: 02-2852340</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item><br>                  
-                  <v-list-item>
-                    <v-list-item-action>
-                      <v-icon class="white--text text--lighten-2">email</v-icon>&nbsp;
-                    </v-list-item-action>
-                    <v-list-item-content>
-                      <v-list-item-title class="white--text">email: test@cdt.com</v-list-item-title>
-                    </v-list-item-content>
-                  </v-list-item>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="white--text text--lighten-2">home</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title class="white--text">บริษัท: คอนโทรล ดาต้า (ประเทศไทย) จำกัด</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile><br>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="white--text text--lighten-2">location_on</v-icon>
+                    </v-list-tile-action>
+                    <span>
+                      <v-list-tile-title class="white--text">ที่อยู่: ชั้น 1 เลขที่ 216/1 อาคารแอลพีเอ็น </v-list-tile-title>
+                      <v-list-tile-title class="white--text">ถนนนางลิ้นจี่ แขวงช่องนนทรี เขตยานนาวา กรุงเทพฯ 10120</v-list-tile-title>
+                      <v-list-tile-title class="white--text">กรุงเทพฯ 10120</v-list-tile-title>
+                    </span>
+                  </v-list-tile><br>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="white--text text--lighten-2">phone</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title class="white--text">โทรศัพท์: 0-2285-2321</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile><br>
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <img :src="fax_icon" style="width:24px;height:24px" />
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title class="white--text">โทรสาร: 02-2852340</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile><br>                  
+                  <v-list-tile>
+                    <v-list-tile-action>
+                      <v-icon class="white--text text--lighten-2">email</v-icon>
+                    </v-list-tile-action>
+                    <v-list-tile-content>
+                      <v-list-tile-title class="white--text">email: test@cdt.com</v-list-tile-title>
+                    </v-list-tile-content>
+                  </v-list-tile>
                 </v-list>
               </v-card>
             </v-flex>
@@ -149,6 +151,10 @@ export default {
   width: 30%;
   height: 30%;
 }
+
+  .custom-font-size1 {
+    font-size: 16px
+  }
 
   img {
     width: 100%;
