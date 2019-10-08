@@ -51,7 +51,8 @@ export default {
   }
 
   .custom-font {
-    font-family: 'Roboto Slab', sans-serif;
+    //font-family: 'Roboto Slab', sans-serif;
+    font-family: "SF Pro TH","SF Pro Text","Sukhumvit Set","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
   }
 
   .custom-details {
