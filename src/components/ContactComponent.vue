@@ -1,5 +1,5 @@
 <template link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <v-layout class="bg-color1" id="Contact" row wrap>
+  <v-layout class="bg-color1 custom-anchor" id="Contact" row wrap>
     <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
            <!-- <img :src="image" >  -->
@@ -145,6 +145,10 @@ export default {
 
   .bg-color1 {
     background-color:#323376
+  }
+
+  .custom-anchor { 
+    padding-top: 90px;
   }
 
   .companylogo {

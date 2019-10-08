@@ -1,9 +1,8 @@
 <template>
-  <v-layout class="custombg" id="Services" row wrap>
+  <v-layout class="custombg custom-anchor" id="Services" row wrap>
     <v-container>
 
-      <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-3>
-          
+      <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-3>        
       <v-layout row wrap>
         <v-layout row wrap justify-center>
           <v-flex xs12 sm6 md6 order-md1 order-sm1 order-xs1>
@@ -43,6 +42,9 @@ export default {
   //   background-color: #21D4FD;
   //   background-image: linear-gradient(19deg, #21D4FD 0%, #323376 58%);
   // }
+  .custom-anchor { 
+    padding-top: 90px; 
+  }
 
   .custombg {
     background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(50,51,118,0.7) 0%), url( 'https://www.cdg.co.th/website/wp-content/uploads/2016/11/solution_solution.jpg') no-repeat center center;
@@ -98,5 +100,7 @@ export default {
     padding: 3% 4% 10%;
     text-align: left
   }
+
+
 </style>
 
