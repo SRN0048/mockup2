@@ -9,7 +9,7 @@
           scrollable
           max-width="1000"
       >
-            <v-img :src="require('@/assets/20190429_Coronation_Web_V21.png')" 
+            <v-img :src="require('@/assets/20191010_k9_webcdg_popup.png')" 
             alt="20190429_Coronation_Web_V21" class="responsivePopup" @click="closePopup()"></v-img>
       </v-dialog>
     </div>
