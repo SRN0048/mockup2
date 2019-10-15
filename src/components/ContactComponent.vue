@@ -95,7 +95,7 @@
                       <v-icon class="white--text text--lighten-2">phone</v-icon>
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title class="white--text">โทรศัพท์: 0-2285-2321</v-list-tile-title>
+                      <v-list-tile-title class="white--text">โทรศัพท์: 0-2285-2328</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile><br>
                   <v-list-tile>
