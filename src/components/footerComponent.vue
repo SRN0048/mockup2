@@ -91,7 +91,7 @@
           </v-layout>
           <v-layout pl-3 row wrap>
           <p>
-           <i class="material-icons" >phone</i>  โทรศัพท์: 02-2852328<br>
+           <i class="material-icons" >phone</i>  โทรศัพท์: 02-285-2328<br>
            <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-285-2339<br>
           </p>             
           </v-layout>
