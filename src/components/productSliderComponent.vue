@@ -20,9 +20,7 @@
                   <div v-if="i==1" class="custom-img-container">
                     <img class="card-img" :src="group1[j-1].src" alt="news">
                   </div>
-                  <!-- <div v-if="i==2" class="custom-img-container">
-                    <img class="card-img" :src="group2[j-1].src" alt="news">
-                  </div>                                -->
+                             
                   <div v-else class="custom-img-container">
                     <img class="card-img" :src="group3[j-1].src" alt="news">
                   </div> 
@@ -31,32 +29,16 @@
                     <v-card-title v-if="i==1" class="custom-title">
                         {{ group1[j-1].title }}
                     </v-card-title> 
-                    <!-- <v-card-title v-else-if="i==2" class="custom-title">
-                        {{ group2[j-1].title }}
-                    </v-card-title>  -->
+
                     <v-card-title v-else class="custom-title">
                         {{ group3[j-1].title }}
                     </v-card-title>                                                        
                   </div>          
 
-                  <!-- <div class="custom-textbox">
-                    <v-card-text v-if="i==1" class="card__txt">
-                        {{$t(group1[j-1].desc)}}
-                    </v-card-text>
-                    <v-card-text v-if="i==2" class="card__txt">
-                        {{$t(group2[j-1].desc)}}
-                    </v-card-text> 
-                    <v-card-text v-if="i==3" class="card__txt">
-                        {{$t(group3[j-1].desc)}}
-                    </v-card-text>                                                       
-                  </div>                                             -->
-
                     <v-flex v-if="i==1" align-end class="text-xs-left custom-btn-padding">
                       <v-btn :href="group1[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
                     </v-flex>
-                   <!-- <v-flex v-if="i==2"  align-end class="text-xs-left custom-btn-padding">
-                      <v-btn :href="group2[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
-                    </v-flex>    -->
+
                     <v-flex v-else align-end class="text-xs-left custom-btn-padding">
                       <v-btn :href="group3[j-1].page" class="custom-btn" target="_blank">Learn more</v-btn>
                     </v-flex>
@@ -237,13 +219,4 @@ export default  {
     z-index: 2;
   }
 
-
-// .thumbnail {
-//   display: inline-block;
-//   max-width: 100%; /* only this one important */
-//   margin-bottom: 1rem;
-//   border: solid 4px #fefefe;
-//   border-radius: 3px;
-//   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-//   line-height: 0; }
 </style>

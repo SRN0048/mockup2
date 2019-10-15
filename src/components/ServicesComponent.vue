@@ -37,11 +37,6 @@ export default {
 
 <style lang="scss" scoped>
 
-  // .bg-color1 {
-  //   background-color:#323376
-  //   background-color: #21D4FD;
-  //   background-image: linear-gradient(19deg, #21D4FD 0%, #323376 58%);
-  // }
   .custom-anchor { 
     padding-top: 90px; 
   }

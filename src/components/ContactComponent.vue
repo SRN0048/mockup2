@@ -2,37 +2,12 @@
   <v-layout class="bg-color1 custom-anchor" id="Contact" row wrap>
     <v-flex xs21 sm12 md12 order-xs1 order-sm1>
       <v-layout  row wrap justify-center>
-           <!-- <img :src="image" >  -->
-           <!-- <GoogleMap/> -->
       </v-layout>
     </v-flex>
 
     <v-container grid-list-xs>
-        <!-- <v-flex xs12 sm12 md12 order-xs2 order-sm2 pt-5>
-          <v-layout row wrap justify-center>
-            <h1 class="border-bottom contact-title">{{ $t('Contact.title') }}</h1>     
-          </v-layout>
-
-          <v-layout text-xs-center row wrap justify-center>
-            <p class="custom-margin1">บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด
-       ได้เปิดสำนักงานใหม่ซึ่งเป็นเป็นห้อง Show Room
-      เพื่อให้ลูกค้าได้เห็นเครื่องจริง และทดสอบการทำงานของเครื่่องตรวจข้อสอบ OMR ก่อนตัดสินใจ</p>     
-          </v-layout>
-          <v-layout row wrap justify-center>
-            <h1 class="border-bottom contact-title">สถานที่ติดต่อ</h1>  
-          </v-layout>
-
-          <v-layout text-xs-center row wrap justify-center>
-            <p><i class="material-icons">location_on</i>  อาคาร LPN Tower ชั้น 1<br>
-             <span>  ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
-             <span>  เขตยานาวา กรุงเทพฯ</span><br>
-           <i class="material-icons">phone</i>  โทรศัพท์: 02-2852328<br>
-           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
-           <i class="material-icons">access_time</i>  เวลาทำการ: จันทร์-ศุกร์ 8:00น.-17:00น.
-          </p>             
-          </v-layout>
-        </v-flex>    -->
           <v-layout row wrap justify-center class="my-12">
+
             <v-flex xs12 sm4>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-center">
@@ -48,25 +23,8 @@
                 </v-card-text>
               </v-card>
             </v-flex>
-            <!-- <v-flex xs12 sm4 offset-sm1>
-              <v-card flat class="transparent">
-                <v-card-title primary-title class="layout justify-center">
-                  <div class="border-bottom headline white--text">{{ $t('Contact.title') }}</div>
-                </v-card-title>
-                <v-card-text>
-          <v-layout text-xs-center row wrap justify-center>
-            <p><i class="material-icons">location_on</i>  อาคาร LPN Tower ชั้น 1<br>
-             <span>  ถนน นางลิ้นจี่ ช่องนนทรี</span> <br>
-             <span>  เขตยานาวา กรุงเทพฯ</span><br>
-           <i class="material-icons">phone</i>  โทรศัพท์: 02-2852328<br>
-           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
-           <i class="material-icons">access_time</i>  เวลาทำการ: จันทร์-ศุกร์ 8:00น.-17:00น.
-          </p>             
-          </v-layout>
-                </v-card-text>
-              </v-card>
-            </v-flex> -->
-                        <v-flex xs12 sm4 offset-sm1>
+
+            <v-flex xs12 sm4 offset-sm1>
               <v-card flat class="transparent">
                 <v-card-title primary-title class="layout justify-center">
                   <div class="border-bottom headline white--text">{{ $t('Contact.title') }}</div>
@@ -106,31 +64,20 @@
                       <v-list-tile-title class="white--text">โทรสาร: 02-285-2339</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile><br>                  
-                  <!-- <v-list-tile>
-                    <v-list-tile-action>
-                      <v-icon class="white--text text--lighten-2">email</v-icon>
-                    </v-list-tile-action>
-                    <v-list-tile-content>
-                      <v-list-tile-title class="white--text">email: test@cdt.com</v-list-tile-title>
-                    </v-list-tile-content>
-                  </v-list-tile> -->
+
                 </v-list>
               </v-card>
             </v-flex>
           </v-layout>
     </v-container>
-     
-
   </v-layout>
-
 </template>
 
 <script>
-//import GoogleMap from '../GoogleMap'
 export default {
   name: 'ContactComponent',
   components : {
-    //GoogleMap
+    
   },
   data() {
     return {
@@ -142,7 +89,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
   .bg-color1 {
     background-color:#323376
   }

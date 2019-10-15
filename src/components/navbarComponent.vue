@@ -24,6 +24,7 @@
           large
           :ripple="false"
           :to="navbarItems[0].page"
+          href="#Home"
         > {{ $t('navbarComponent.Home') }}</v-btn> 
         <v-btn
           active-class="v-btn--active"
@@ -122,7 +123,7 @@
       right 
       v-model="drawer" >
       <v-list>
-        <v-list-tile :to="navbarItems[0].page">
+        <v-list-tile :to="navbarItems[0].page" href="#Home">
             <v-list-tile-content> 
               {{ $t('navbarComponent.Home') }}
             </v-list-tile-content>
@@ -202,7 +203,7 @@ export default {
     return {
       companyIcon: require('@/assets/cdg_newlogo_2018.png'),
       navbarItems :[
-        {id: 0, title: "Home", page:'/'},
+        {id: 0, title: "Home"},
         {id: 1, title: "About"},
         {id: 2, title: "Services"},
         {id: 3, title: "News"},

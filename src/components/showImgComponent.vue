@@ -1,8 +1,8 @@
 <template>
-    <section class="gradient-bg">
+    <section class="gradient-bg" id="Home">
         <v-container class="no-bottom-padding">
              <v-content>
-                <v-layout justify-center row wrap>
+                <v-layout  justify-center row wrap>
                     <v-flex xs12 sm12 md12 lg12>
                         <v-card 
                         class="black darken-2"              
@@ -29,7 +29,7 @@
                             </v-hover>
                             <v-layout justify-center>
                             <v-card-actions>
-                            <v-btn flat color="white" :href="brochure">
+                            <v-btn flat color="white" :href="brochure" target="_blank">
                                 <i class="material-icons" style="color:white">picture_as_pdf</i>&nbsp;
                                 DOWNLOAD BROCHURE</v-btn>
                             </v-card-actions>           

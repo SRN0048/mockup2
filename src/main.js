@@ -7,12 +7,10 @@ import i18n from './i18n'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 Vue.config.productionTip = false
-// Vue.use(VueGoogleMaps, {
-//   load: {
-//     key: "AIzaSyB0vOatJO45YSGJVs7WBvJ8C_Hq_A1yjMI",
-//     libraries: "places" // necessary for places input
-//   }
-// });
+  router.beforeEach((to,from,next) => {
+    document.title = to.meta.title
+    next()
+});
 
 new Vue({
   router,

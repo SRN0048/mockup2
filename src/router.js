@@ -13,28 +13,47 @@ export default new Router({
     {
       path: '/',
       name: 'Home',
-      component: ( )=> import('@/components/navbar/Home.vue')
+      component: ( )=> import('@/components/navbar/Home.vue'),
+      meta: { title: 'บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด' }
+    },
+    {
+      path: '/Home',
+      name: 'Home',
+      component: ( )=> import('@/components/navbar/Home.vue'),
+      meta: { title: 'บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด' }
+    },
+    {
+      path: '/Services',
+      name: 'Home',
+      component: ( )=> import('@/components/navbar/Home.vue'),
+      meta: { title: 'บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด' }
+    },
+    {
+      path: '/Contact',
+      name: 'Home',
+      component: ( )=> import('@/components/navbar/Home.vue'),
+      meta: { title: 'บริษัท คอนโทรล ดาต้า (ประเทศไทย) จำกัด' }
     },
     // {
     //   path: '/About',
     //   name: 'About',
     //   component: ( )=> import('@/components/navbar/About.vue')
     // },
-    {
-      path: '/Services',
-      name: 'Services',
-      component: ( )=> import('@/components/navbar/Services.vue')   
-    },
+    // {
+    //   path: '/Services',
+    //   name: 'Services',
+    //   component: ( )=> import('@/components/navbar/Services.vue')   
+    // },
     // {
     //   path: '/News',
     //   name: 'News',
     //   component: ( )=> import('@/components/navbar/News.vue') 
     // },
-    {
-      path: '/Contact',
-      name: 'Contact',
-      component: ( )=> import('@/components/navbar/Contact.vue') 
-    },
+    // {
+    //   path: '/Contact',
+    //   name: 'Contact',
+    //   component: ( )=> import('@/components/navbar/Contact.vue') 
+    // },
     // {
     //   path: '/Careers',
     //   name: 'Careers',

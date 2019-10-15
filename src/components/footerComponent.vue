@@ -110,8 +110,8 @@
 
 <script>
 import subfooter from '@/components/subfooter'
-  import { validationMixin } from 'vuelidate'
-  import { required, maxLength, email } from 'vuelidate/lib/validators'
+//import { validationMixin } from 'vuelidate'
+//import { required, maxLength, email } from 'vuelidate/lib/validators'
 
 
 export default  {
@@ -120,12 +120,12 @@ export default  {
       subfooter
     },
     props: [],
-    mixins: [validationMixin],
-    validations: {
-      name: { required, maxLength: maxLength(10) },
-      email: { required, email },
-      details: { required, maxLength: maxLength(300)}
-    },
+    //mixins: [validationMixin],
+    // validations: {
+    //   name: { required, maxLength: maxLength(10) },
+    //   email: { required, email },
+    //   details: { required, maxLength: maxLength(300)}
+    // },
     mounted() {
 
     },
@@ -136,10 +136,10 @@ export default  {
           {lorem: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'},
           {company: 'ที่ปรึกษาส่วนตัวสำหรับองค์กรขนาดใหญ่ ให้บริการที่เป็นเลิศแก่หน่วยงานภาครัฐ รัฐวิสาหกิจ และเอกชน เพื่อดูแลโครงการสำคัญระดับชาติ'}
         ],
-        dialog: false,
-        name: '',
-        email: '',
-        details: '',
+        //dialog: false,
+        //name: '',
+        //email: '',
+        //details: '',
         fax_icon: require('@/assets/fax.png')
       }
     },
