@@ -203,26 +203,34 @@ export default {
       companyIcon: require('@/assets/cdg_newlogo_2018.png'),
       navbarItems :[
         {id: 0, title: "Home", page:'/'},
-        {id: 1, title: "About", page:'/About'},
-        {id: 2, title: "Services", page:'/Services'},
-        {id: 3, title: "News", page:'/News'},
-        {id: 4, title: "Contact Us", page:'/Contact'},
-        {id: 5, title: "Careers", page:'/Careers'}
+        {id: 1, title: "About"},
+        {id: 2, title: "Services"},
+        {id: 3, title: "News"},
+        {id: 4, title: "Contact Us"},
+        {id: 5, title: "Careers"}
       ],
+      // navbarItems :[
+      //   {id: 0, title: "Home", page:'/'},
+      //   {id: 1, title: "About", page:'/About'},
+      //   {id: 2, title: "Services", page:'/Services'},
+      //   {id: 3, title: "News", page:'/News'},
+      //   {id: 4, title: "Contact Us", page:'/Contact'},
+      //   {id: 5, title: "Careers", page:'/Careers'}
+      // ],
       drawer: false,
-      menuLanguageA: false,
-      menuLanguageB: false,
-      flagBtn: '',
-      locales: [
-        {  language: 'en', title: 'English', image: require('../assets/en.svg'), text: 'EN' },
-        {  language: 'th', title: 'ไทย', image: require('../assets/th.svg'), text: 'TH' }
-      ]           
+      // menuLanguageA: false,
+      // menuLanguageB: false,
+      // flagBtn: '',
+      // locales: [
+      //   {  language: 'en', title: 'English', image: require('../assets/en.svg'), text: 'EN' },
+      //   {  language: 'th', title: 'ไทย', image: require('../assets/th.svg'), text: 'TH' }
+      // ]           
     }
   },
   computed: {
-    flag () {
-      return this.flagBtn = i18n.locale
-    }
+    // flag () {
+    //   return this.flagBtn = i18n.locale
+    // }
   }
 }
 </script>
