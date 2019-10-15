@@ -51,7 +51,7 @@ export default  {
       return {
         img: require('../assets/iNSIGHT 700c.png'),
         youtube:'https://www.youtube.com/watch?v=DRfkzYOK0js',
-        brochure: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiK19WBvffkAhVEKo8KHQSTDSYQjhx6BAgBEAI&url=https%3A%2F%2F5.imimg.com%2Fdata5%2FAF%2FGC%2FMY-3384083%2Finsight-700c-scanner.pdf&psig=AOvVaw0RQFE4dXY0wbjtDolTi0B0&ust=1569895754104034'
+        brochure: 'https://www.dropbox.com/s/ls905zawhscxdz0/insight-700c-scanner.pdf?dl=0'
       }
     },
 }
