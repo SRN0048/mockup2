@@ -92,7 +92,7 @@
           <v-layout pl-3 row wrap>
           <p>
            <i class="material-icons" >phone</i>  โทรศัพท์: 02-2852328<br>
-           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-2852340<br>
+           <img :src="fax_icon" style="width:24px;height:24px" />  โทรสาร: 02-285-2339<br>
           </p>             
           </v-layout>
 
@@ -144,37 +144,37 @@ export default  {
       }
     },
     methods: {
-      submit () {
-        this.$v.$touch()
-      },
-      clear () {
-        this.$v.$reset()
-        this.name = ''
-        this.email = ''
-        this.details = ''
-      }
+      // submit () {
+      //   this.$v.$touch()
+      // },
+      // clear () {
+      //   this.$v.$reset()
+      //   this.name = ''
+      //   this.email = ''
+      //   this.details = ''
+      // }
     },
     computed: {
-      nameErrors () {
-        const errors = []
-        if (!this.$v.name.$dirty) return errors
-        !this.$v.name.maxLength && errors.push('Name must be at most 10 characters long')
-        !this.$v.name.required && errors.push('Name is required.')
-        return errors
-      },
-      emailErrors () {
-        const errors = []
-        if (!this.$v.email.$dirty) return errors
-        !this.$v.email.email && errors.push('Must be valid e-mail')
-        !this.$v.email.required && errors.push('E-mail is required')
-        return errors
-      },
-      detailsErrors () {
-        const errors = []
-        if (!this.$v.details.$dirty) return errors
-        !this.$v.details.required && errors.push('Details are required')
-        return errors
-      }
+      // nameErrors () {
+      //   const errors = []
+      //   if (!this.$v.name.$dirty) return errors
+      //   !this.$v.name.maxLength && errors.push('Name must be at most 10 characters long')
+      //   !this.$v.name.required && errors.push('Name is required.')
+      //   return errors
+      // },
+      // emailErrors () {
+      //   const errors = []
+      //   if (!this.$v.email.$dirty) return errors
+      //   !this.$v.email.email && errors.push('Must be valid e-mail')
+      //   !this.$v.email.required && errors.push('E-mail is required')
+      //   return errors
+      // },
+      // detailsErrors () {
+      //   const errors = []
+      //   if (!this.$v.details.$dirty) return errors
+      //   !this.$v.details.required && errors.push('Details are required')
+      //   return errors
+      // }
     }
 }
 </script>

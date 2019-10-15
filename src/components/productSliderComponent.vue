@@ -83,8 +83,8 @@ export default  {
       return {
         group1:[
           {title: 'OpScan® 4ES OMR Scanner ', desc: 'slider.product1', src: require('../assets/opscan4es_clip-590x342.jpg'), page:'https://www.scantron.com/scanners-forms/optical-mark-recognition-omr-scanners-opscan-series/opscan-4es-omr-scanner/'},
-          {title: 'OpScan® 6 Scanner', desc: 'slider.product2', src: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6.jpg', page: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6-Datasheet.pdf'},
-          {title: 'OpScan® 8 Scanner', desc: 'slider.product3', src: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6.jpg', page: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-8-Datasheet.pdf'}
+          {title: 'OpScan® 6 Scanner (Maintenance only)', desc: 'slider.product2', src: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6.jpg', page: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6-Datasheet.pdf'},
+          {title: 'OpScan® 8 Scanner (Maintenance only)', desc: 'slider.product3', src: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-6.jpg', page: 'https://www.scantron.com/wp-content/uploads/2018/08/OpScan-8-Datasheet.pdf'}
         ],
         // group2:[
         //   {title: 'ScanTools® Plus', desc: 'slider.product4', src: 'https://www.scantron.com/wp-content/uploads/2018/09/GettyImages-908252358-660x371.jpg', page: 'https://www.scantron.com/scanners-forms/scantools-plus/'},
@@ -145,12 +145,30 @@ export default  {
     overflow: hidden;
   }
 
+@media screen and (max-width: 1263px) {
+  .custom-title {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5% 0 5% 4%;
+    min-height: 86px;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .custom-title {
     font-weight: bold;
     font-size: large;
     margin-left: 5% 0 5% 4%;
     min-height: 86px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .custom-title {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5% 0 5% 4%;
+    min-height: 113px;
   }
 }
 

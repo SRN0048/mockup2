@@ -103,7 +103,7 @@
                       <img :src="fax_icon" style="width:24px;height:24px" />
                     </v-list-tile-action>
                     <v-list-tile-content>
-                      <v-list-tile-title class="white--text">โทรสาร: 02-2852340</v-list-tile-title>
+                      <v-list-tile-title class="white--text">โทรสาร: 02-285-2339</v-list-tile-title>
                     </v-list-tile-content>
                   </v-list-tile><br>                  
                   <!-- <v-list-tile>
