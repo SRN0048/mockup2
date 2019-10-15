@@ -119,7 +119,7 @@ export default  {
   }
 
   .no-bottom-padding {
-    padding-bottom: 0;
+    //padding-bottom: 0;
     margin-bottom: 1%
   }
 
@@ -163,6 +163,15 @@ export default  {
   }
 }
 
+@media screen and (max-width: 681px) {
+  .custom-title {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 5% 0 5% 4%;
+    min-height: 113px;
+  }
+}
+
 @media screen and (max-width: 664px) {
   .custom-title {
     font-weight: bold;
@@ -172,12 +181,21 @@ export default  {
   }
 }
 
-@media screen and (max-width: 514px) {
+@media screen and (max-width: 524px) {
   .custom-title {
     font-weight: bold;
     font-size: large;
     margin-left: 5% 0 5% 4%;
     min-height: 113px;
+  }
+}
+
+@media screen and (max-width: 524px) {
+  .custom-img-container {
+    width: 100%;
+    height: auto;
+    min-height: 106.45px;
+    overflow: hidden;
   }
 }
 
