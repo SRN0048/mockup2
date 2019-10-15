@@ -40,9 +40,9 @@
   <v-layout row justify-center>
       <template>
         <v-card-text class="custom-card-text" >
-        <a href="https://www.scantron.com/scanners-forms/optical-mark-recognition-omr-scanners-opscan-series/">{{$t('footerComponent.opscanSeries')}}</a>
+        <a href="https://www.scantron.com/scanners-forms/optical-mark-recognition-omr-scanners-opscan-series/" target="_blank">{{$t('footerComponent.opscanSeries')}}</a>
         <br>
-        <a href="https://www.scantron.com/scanners-forms/omr-image-scanners-insight-series/">{{$t('footerComponent.insightSeries')}}</a>
+        <a href="https://www.scantron.com/scanners-forms/omr-image-scanners-insight-series/" target="_blank">{{$t('footerComponent.insightSeries')}}</a>
         </v-card-text>      
       </template>
   </v-layout>        
