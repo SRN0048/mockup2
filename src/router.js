@@ -4,8 +4,8 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 export default new Router({
-  mode: 'history', //remove hashtag from url
-  hash: false, //remove hashtag from url
+  //mode: 'history', //remove hashtag from url
+  //hash: false, //remove hashtag from url
   scrollBehavior () { //reset scrollbar when route change to next component
     return { x: 0, y: 0 }
   },

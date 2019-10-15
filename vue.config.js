@@ -15,6 +15,6 @@ module.exports = {
       enableInSFC: true
     }
   },
-  //publicPath: '/mockup-deploy-vuetify1514/'
+  publicPath: ''
   // vuetify@1.5.14
 }
